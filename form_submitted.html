@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submitted</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #F4D03F;
+background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+
+    }
+
+    .card {
+      max-width: 400px;
+      background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.5);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+      background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    }
+    @media (max-width: 600px) {
+  .card {
+    max-height: fit-content;
+    max-width: 90%;
+
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Your Form Has Been Submitted</h1>
+    <p>We'll get back to you soon. Thank you for contacting us</p>
+  </div>
+</body>
+</html>
